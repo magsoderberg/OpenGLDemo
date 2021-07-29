@@ -1,0 +1,206 @@
+[{"Number Of Models":8},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1",
+            "1": "light_startScreen2"
+        },
+        "meshPath": "assets/models/Startscreen/startscreen.obj",
+        "name": "StartScreen",
+        "position": {
+            "x": 26.849990844726563,
+            "y": -0.05000334978103638,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.220014750957489,
+        "setShaderUniformsName": "allAnimations::StartScreenAnimation",
+        "texturePath": "assets/textures/startscreen_texture.jpg",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1",
+            "1": "light_startScreen"
+        },
+        "meshPath": "assets/models/wall/wall.obj",
+        "name": "wall1",
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 10.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "rotationAngle": 89.70899963378906,
+        "setShaderUniformsName": "",
+        "texturePath": "assets/textures/wall_texture2.jpg",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1",
+            "1": "light2",
+            "2": "light2_2"
+        },
+        "meshPath": "assets/models/wall/wall.obj",
+        "name": "wall2",
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 10.0
+        },
+        "rotation": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.0,
+        "setShaderUniformsName": "",
+        "texturePath": "assets/textures/wall_texture.jpg",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light2",
+            "1": "light2_2"
+        },
+        "meshPath": "assets/models/carpet/carpet.obj",
+        "name": "carpet",
+        "position": {
+            "x": 0.0,
+            "y": -8.0,
+            "z": 15.0
+        },
+        "rotation": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.0,
+        "setShaderUniformsName": "",
+        "texturePath": "assets/textures/wall_texture2.jpg",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "animation": {
+            "0": "assets/models/chest/chest2_closed.obj",
+            "1": "assets/models/chest/chest2_open.obj"
+        },
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light2",
+            "1": "light3",
+            "2": "light2_2"
+        },
+        "meshPath": "assets/models/chest/chest2_closed.obj",
+        "name": "chest2",
+        "position": {
+            "x": 0.0,
+            "y": -7.599999904632568,
+            "z": 15.0
+        },
+        "rotation": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.0,
+        "setShaderUniformsName": "allAnimations::ChestAnimation",
+        "texturePath": "assets/textures/chest2_texture.jpg",
+        "vshader": "shaders/vertex_animation.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1",
+            "1": "clickLight1",
+            "2": "clickLight2",
+            "3": "clickLight3",
+            "4": "clickLight4",
+            "5": "clickLight5",
+            "6": "clickLight6",
+            "7": "clickLight7",
+            "8": "clickLight8",
+            "9": "clickLight9"
+        },
+        "meshPath": "assets/models/wall/wall.obj",
+        "name": "wall3",
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 10.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "rotationAngle": 270.0,
+        "setShaderUniformsName": "",
+        "texturePath": "assets/textures/wall_texture2.jpg",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1"
+        },
+        "meshPath": "assets/models/stream/stream.obj",
+        "name": "stream",
+        "position": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.6000000238418579
+        },
+        "rotation": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.0,
+        "setShaderUniformsName": "allAnimations::StreamAnimation",
+        "texturePath": "assets/textures/stream_texture.png",
+        "vshader": "shaders/vertex.shader"
+    }
+},{
+    "Model": {
+        "fshader": "shaders/fs_simple_lighting.shader",
+        "lights": {
+            "0": "light1",
+            "1": "light_startScreen"
+        },
+        "meshPath": "assets/models/stones/stones.obj",
+        "name": "stones",
+        "position": {
+            "x": -0.4000000059604645,
+            "y": 0.0,
+            "z": -0.6000000238418579
+        },
+        "rotation": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "rotationAngle": 0.0,
+        "setShaderUniformsName": "",
+        "texturePath": "assets/textures/stones_texture.png",
+        "vshader": "shaders/vertex.shader"
+    }
+}]

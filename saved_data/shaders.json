@@ -1,0 +1,17 @@
+[{"Number Of Vertex Shaders":4},{"Number Of Fragment Shaders":4},{
+    "vertexShader": "shaders/vertex.shader"
+},{
+    "vertexShader": "shaders/vertex_simple.shader"
+},{
+    "vertexShader": "shaders/vertex_animation.shader"
+},{
+    "vertexShader": "shaders/vertex_stream.shader"
+},{
+    "fragmentShader": "shaders/fragment.shader"
+},{
+    "fragmentShader": "shaders/fs_lightsource.shader"
+},{
+    "fragmentShader": "shaders/fs_simple_lighting.shader"
+},{
+    "fragmentShader": "shaders/fs_moving_texture.shader"
+}]

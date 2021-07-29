@@ -1,0 +1,27 @@
+[{"Number Of Meshes":13},{
+    "meshPath": "assets/models/sphere/cube.obj"
+},{
+    "meshPath": "assets/models/room/room.obj"
+},{
+    "meshPath": "assets/models/rectangle.obj"
+},{
+    "meshPath": "assets/models/Startscreen/startscreen.obj"
+},{
+    "meshPath": "assets/models/sphere/light_cube.obj"
+},{
+    "meshPath": "assets/models/chest/chest_closed.obj"
+},{
+    "meshPath": "assets/models/chest/chest_open.obj"
+},{
+    "meshPath": "assets/models/wall/wall.obj"
+},{
+    "meshPath": "assets/models/carpet/carpet.obj"
+},{
+    "meshPath": "assets/models/chest/chest2_closed.obj"
+},{
+    "meshPath": "assets/models/sphere/sphere.obj"
+},{
+    "meshPath": "assets/models/stream/stream.obj"
+},{
+    "meshPath": "assets/models/stones/stones.obj"
+}]

@@ -1,0 +1,736 @@
+[{"Number Of Lights":15},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.8414709568023682,
+            "G": 0.8414655923843384,
+            "R": 0.8414658904075623
+        },
+        "constant": 1.0,
+        "cutoff": 4.138000011444092,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 0.39800000190734863,
+            "y": -1.0,
+            "z": 0.6169999837875366
+        },
+        "guiLightType": 0,
+        "lightUniforms": {
+            "blueIncrementor": 0.0,
+            "greenIncrementor": 0.0,
+            "redIncrementor": 0.0
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/cube.obj",
+        "name": "light1",
+        "outerCutoff": 14.324000358581543,
+        "position": {
+            "x": 0.0,
+            "y": 20.0,
+            "z": 0.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": false,
+        "setShaderUniformsName": "",
+        "specular": {
+            "x": 0.15000000596046448,
+            "y": 0.09700000286102295,
+            "z": 0.10400000214576721
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.9999899864196777,
+            "G": 0.9999997615814209,
+            "R": 1.0
+        },
+        "constant": 1.0,
+        "cutoff": 36.60499954223633,
+        "diffuse": {
+            "x": 0.08799999952316284,
+            "y": 0.10599999874830246,
+            "z": 0.052000001072883606
+        },
+        "direction": {
+            "x": -0.008999999612569809,
+            "y": -1.0,
+            "z": -0.008999999612569809
+        },
+        "guiLightType": 2,
+        "lightUniforms": {
+            "blueIncrementor": 0.0,
+            "greenIncrementor": 0.0,
+            "redIncrementor": 0.0
+        },
+        "linear": 0.003000000026077032,
+        "meshPath": "assets/models/sphere/cube.obj",
+        "name": "light2",
+        "outerCutoff": 49.33700180053711,
+        "position": {
+            "x": 0.0,
+            "y": 10.0,
+            "z": 15.0
+        },
+        "quadratic": 0.03500000014901161,
+        "render": false,
+        "setShaderUniformsName": "",
+        "specular": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.989627480506897,
+            "G": 0.9401419162750244,
+            "R": 0.8208005428314209
+        },
+        "constant": 1.0,
+        "cutoff": 42.65299987792969,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 0.0,
+            "y": 0.5040000081062317,
+            "z": -1.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.006000000052154064,
+            "greenIncrementor": 0.03400000184774399,
+            "redIncrementor": 0.006000000052154064
+        },
+        "linear": 0.024000000208616257,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "light3",
+        "outerCutoff": 54.74800109863281,
+        "position": {
+            "x": 0.0,
+            "y": -4.0,
+            "z": 15.0
+        },
+        "quadratic": 0.16500000655651093,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.1589999943971634,
+            "y": 0.26499998569488525,
+            "z": 0.20000000298023224
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.9160506725311279,
+            "G": 0.2960762083530426,
+            "R": 0.5117017030715942
+        },
+        "constant": 1.0,
+        "cutoff": 57.612998962402344,
+        "diffuse": {
+            "x": 0.8759999871253967,
+            "y": 0.8669999837875366,
+            "z": 0.8610000014305115
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.11500000208616257,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.01600000075995922,
+            "greenIncrementor": 0.012000000104308128,
+            "redIncrementor": 0.007000000216066837
+        },
+        "linear": 0.027000000700354576,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight1",
+        "outerCutoff": 74.8010025024414,
+        "position": {
+            "x": -12.0,
+            "y": 6.0,
+            "z": -6.0
+        },
+        "quadratic": 0.027000000700354576,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.08799999952316284,
+            "y": 0.07999999821186066,
+            "z": 0.08699999749660492
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.9305154085159302,
+            "G": 0.8431556820869446,
+            "R": 0.9081266522407532
+        },
+        "constant": 1.0,
+        "cutoff": 57.612998962402344,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.027000000700354576,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.007000000216066837,
+            "greenIncrementor": 0.004999999888241291,
+            "redIncrementor": 0.007000000216066837
+        },
+        "linear": 0.024000000208616257,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight2",
+        "outerCutoff": 69.70800018310547,
+        "position": {
+            "x": -12.0,
+            "y": 6.0,
+            "z": 0.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.3543674647808075,
+            "G": 0.7683471441268921,
+            "R": 0.6547384262084961
+        },
+        "constant": 1.0,
+        "cutoff": 56.34000015258789,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.09700000286102295,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.007000000216066837,
+            "greenIncrementor": 0.02500000037252903,
+            "redIncrementor": 0.004000000189989805
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight3",
+        "outerCutoff": 66.84400177001953,
+        "position": {
+            "x": -12.0,
+            "y": 6.0,
+            "z": 6.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.5220000147819519,
+            "y": 0.5040000081062317,
+            "z": 0.5569999814033508
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.9952319860458374,
+            "G": 0.602760910987854,
+            "R": 0.9019995331764221
+        },
+        "constant": 1.0,
+        "cutoff": 56.020999908447266,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.008999999612569809,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.07699999958276749,
+            "greenIncrementor": 0.0010000000474974513,
+            "redIncrementor": 0.023000000044703484
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight4",
+        "outerCutoff": 64.61499786376953,
+        "position": {
+            "x": -12.0,
+            "y": 0.0,
+            "z": -6.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.5903336405754089,
+            "G": 0.772982120513916,
+            "R": 0.6463223695755005
+        },
+        "constant": 1.0,
+        "cutoff": 57.930999755859375,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.04399999976158142,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.012000000104308128,
+            "greenIncrementor": 0.009999999776482582,
+            "redIncrementor": 0.004000000189989805
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight5",
+        "outerCutoff": 65.56999969482422,
+        "position": {
+            "x": -12.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.5261070132255554,
+            "G": 0.25607091188430786,
+            "R": 0.5261070132255554
+        },
+        "constant": 1.0,
+        "cutoff": 56.34000015258789,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.027000000700354576,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.0,
+            "greenIncrementor": 0.007000000216066837,
+            "redIncrementor": 0.0
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight6",
+        "outerCutoff": 64.2969970703125,
+        "position": {
+            "x": -12.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.5254466533660889,
+            "G": 0.17508867383003235,
+            "R": 0.8291718363761902
+        },
+        "constant": 1.0,
+        "cutoff": 58.249000549316406,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.008999999612569809,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.013000000268220901,
+            "greenIncrementor": 0.027000000700354576,
+            "redIncrementor": 0.007000000216066837
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight7",
+        "outerCutoff": 66.5250015258789,
+        "position": {
+            "x": -12.0,
+            "y": -6.0,
+            "z": -6.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.6171956658363342,
+            "G": 0.3501342535018921,
+            "R": 0.5540163516998291
+        },
+        "constant": 1.0,
+        "cutoff": 58.88600158691406,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.008999999612569809,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.024000000208616257,
+            "greenIncrementor": 0.007000000216066837,
+            "redIncrementor": 0.0
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight8",
+        "outerCutoff": 66.84400177001953,
+        "position": {
+            "x": -12.0,
+            "y": -6.0,
+            "z": 0.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 0.8142673969268799,
+            "G": 0.7545381784439087,
+            "R": 0.7444532513618469
+        },
+        "constant": 1.0,
+        "cutoff": 62.069000244140625,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 1.0,
+            "y": 0.008999999612569809,
+            "z": 0.0
+        },
+        "guiLightType": 3,
+        "lightUniforms": {
+            "blueIncrementor": 0.013000000268220901,
+            "greenIncrementor": 0.03099999949336052,
+            "redIncrementor": 0.04500000178813934
+        },
+        "linear": 0.09000000357627869,
+        "meshPath": "assets/models/sphere/sphere.obj",
+        "name": "clickLight9",
+        "outerCutoff": 72.89099884033203,
+        "position": {
+            "x": -12.0,
+            "y": -6.0,
+            "z": 6.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": true,
+        "setShaderUniformsName": "allAnimations::changeLightColor",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 1.0,
+            "G": 1.0,
+            "R": 1.0
+        },
+        "constant": 1.0,
+        "cutoff": 97.4010009765625,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": 0.27399998903274536,
+            "y": -1.0,
+            "z": -0.008999999612569809
+        },
+        "guiLightType": 2,
+        "lightUniforms": {
+            "blueIncrementor": 0.0,
+            "greenIncrementor": 0.01600000075995922,
+            "redIncrementor": 0.004000000189989805
+        },
+        "linear": 0.003000000026077032,
+        "meshPath": "assets/models/sphere/cube.obj",
+        "name": "light_startScreen",
+        "outerCutoff": 110.76899719238281,
+        "position": {
+            "x": 18.0,
+            "y": 8.0,
+            "z": 0.0
+        },
+        "quadratic": 0.00800000037997961,
+        "render": false,
+        "setShaderUniformsName": "",
+        "specular": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "color": {
+            "A": 1.0,
+            "B": 1.0,
+            "G": 1.0,
+            "R": 1.0
+        },
+        "constant": 1.0,
+        "cutoff": 39.78799819946289,
+        "diffuse": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "direction": {
+            "x": -0.008999999612569809,
+            "y": -1.0,
+            "z": 0.28700000047683716
+        },
+        "guiLightType": 2,
+        "lightUniforms": {
+            "blueIncrementor": 0.0010000000474974513,
+            "greenIncrementor": 0.0,
+            "redIncrementor": 0.0010000000474974513
+        },
+        "linear": 0.013000000268220901,
+        "meshPath": "assets/models/sphere/cube.obj",
+        "name": "light2_2",
+        "outerCutoff": 49.33700180053711,
+        "position": {
+            "x": 0.0,
+            "y": 6.0,
+            "z": 20.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": false,
+        "setShaderUniformsName": "",
+        "specular": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        }
+    }
+},{
+    "Light": {
+        "ambient": {
+            "x": 0.4959999918937683,
+            "y": 0.5220000147819519,
+            "z": 0.4869999885559082
+        },
+        "color": {
+            "A": 1.0,
+            "B": 1.0,
+            "G": 1.0,
+            "R": 1.0
+        },
+        "constant": 1.0,
+        "cutoff": 51.24700164794922,
+        "diffuse": {
+            "x": 0.4959999918937683,
+            "y": 0.5130000114440918,
+            "z": 0.4959999918937683
+        },
+        "direction": {
+            "x": -0.7699999809265137,
+            "y": -0.23899999260902405,
+            "z": 0.008999999612569809
+        },
+        "guiLightType": 0,
+        "lightUniforms": {
+            "blueIncrementor": -431602080.0,
+            "greenIncrementor": -431602080.0,
+            "redIncrementor": -431602080.0
+        },
+        "linear": 0.01899999938905239,
+        "meshPath": "assets/models/sphere/cube.obj",
+        "name": "light_startScreen2",
+        "outerCutoff": 61.11399841308594,
+        "position": {
+            "x": 20.0,
+            "y": 8.0,
+            "z": 0.0
+        },
+        "quadratic": 0.03200000151991844,
+        "render": false,
+        "setShaderUniformsName": "",
+        "specular": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        }
+    }
+}]

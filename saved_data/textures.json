@@ -1,0 +1,25 @@
+[{"Number Of Textures":12},{
+    "texturePath": "assets/textures/container_blue.jpg"
+},{
+    "texturePath": "assets/textures/container_green.jpg"
+},{
+    "texturePath": "assets/textures/container_orange.jpg"
+},{
+    "texturePath": "assets/textures/container_pink.jpg"
+},{
+    "texturePath": "assets/textures/room_texture1.jpg"
+},{
+    "texturePath": "assets/textures/startscreen_texture.jpg"
+},{
+    "texturePath": "assets/textures/carpet_texture.jpg"
+},{
+    "texturePath": "assets/textures/chest2_texture.jpg"
+},{
+    "texturePath": "assets/textures/stream_texture.png"
+},{
+    "texturePath": "assets/textures/stones_texture.png"
+},{
+    "texturePath": "assets/textures/wall_texture.jpg"
+},{
+    "texturePath": "assets/textures/wall_texture2.jpg"
+}]
