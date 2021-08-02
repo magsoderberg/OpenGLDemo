@@ -58,7 +58,7 @@ bool allAnimations::StreamAnimation(Model& m) {
 //Moves the start screen back and forth
 bool allAnimations::StartScreenAnimation(Model& m) {
     static glm::vec3 endPos(12.0f, -5.0, 0.0);
-    static glm::vec3 startPos(27.0, 0.0, 0.0);
+    static glm::vec3 startPos(27.0, 0.1, 0.0);
     static float startAngle = 0.0f;
     static float endAngle = 22.0f;
     static int sign = 1;

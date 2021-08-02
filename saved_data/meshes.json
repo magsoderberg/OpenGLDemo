@@ -1,4 +1,4 @@
-[{"Number Of Meshes":13},{
+[{"Number Of Meshes":14},{
     "meshPath": "assets/models/sphere/cube.obj"
 },{
     "meshPath": "assets/models/room/room.obj"
@@ -24,4 +24,6 @@
     "meshPath": "assets/models/stream/stream.obj"
 },{
     "meshPath": "assets/models/stones/stones.obj"
+},{
+    "meshPath": "assets/models/star/star.obj"
 }]

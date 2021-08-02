@@ -135,7 +135,6 @@ void allShaders::DeSerialize() {
 		if (el.key() == "Number Of Vertex Shaders")
 		{
 			numVertShaders = el.value();
-			std::cout << "NUM VERT SHADERS " << numVertShaders << std::endl;
 		}
 	}
 
@@ -144,7 +143,6 @@ void allShaders::DeSerialize() {
 		if (el.key() == "Number Of Fragment Shaders")
 		{
 			numFragShaders = el.value();
-			std::cout << "NUM FRAG SHADERS " << numFragShaders << std::endl;
 		}
 	}
 

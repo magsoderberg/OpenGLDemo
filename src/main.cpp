@@ -2,11 +2,11 @@
 *   OpenGL demo
 * 
 *   A small demo using OpenGL with the purpose of learning
-*   rudimentary graphics programming.
+*   rudimentary graphics programming in C++.
 * 
 *   Includes the following dependencies:
 *   ASSIMP - loading models
-*   GLEW - OpenGL functions
+*   GLEW - obtain OpenGL functions
 *   GLFW - rendering context and user inputs
 *   GLM - vector/matrix math
 *   IMGUI - GUI

@@ -21,7 +21,7 @@
 float const Application::WINDOW_SIZE_X = 2560.0f;
 float const Application::WINDOW_SIZE_Y = 1440.0f;
 float const * Application::WINDOW_SIZE = new float[] {WINDOW_SIZE_X, WINDOW_SIZE_Y};
-
+int Application::quit = 0;
 
 int Application::InitWindow() {
 
@@ -30,7 +30,7 @@ int Application::InitWindow() {
         return -1;
 
     //Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(WINDOW_SIZE_X, WINDOW_SIZE_Y, "OpenGL Demo by Magnus Soderberg", NULL, NULL);
+    window = glfwCreateWindow(WINDOW_SIZE_X, WINDOW_SIZE_Y, "OpenGL Demo by Magnus Soderberg", glfwGetPrimaryMonitor(), NULL);
     if (!window)
     {
         glfwTerminate();
@@ -71,9 +71,14 @@ void Application::DeSerialize() {
     allModels::DeSerialize();
 }
 
+void Application::Quit() {
+    quit = 1;
+    std::cout << "Exited program" << std::endl;
+}
+
 void Application::RenderLoop() {
 
-    while (!glfwWindowShouldClose(window))
+    while (!glfwWindowShouldClose(window) && !quit)
     {
         gui.NewFrame(camera);
 
@@ -243,6 +248,20 @@ void processInput(GLFWwindow* window)
     //Press H + LEFT CONTROL to hide GUI
     if (glfwGetKey(window, GLFW_KEY_H) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS && !app->showGUI) {
         app->showGUI = true;
+    }
+    //Press L to show Lights
+    if (glfwGetKey(window, GLFW_KEY_L) == GLFW_PRESS && app->showLights) {
+        app->showLights = false;
+        for (int i = 0; i < allLights::GetSize(); i++) {
+            allLights::GetObject(i)->render = false;
+        }
+    }
+    //Press L + LEFT CONTROL to hide Lights
+    if (glfwGetKey(window, GLFW_KEY_L) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_LEFT_CONTROL) == GLFW_PRESS && !app->showLights) {
+        app->showLights = true;
+        for(int i = 0; i < allLights::GetSize(); i++) {
+            allLights::GetObject(i)->render = true;
+        }
     }
     
     if (!app->GetCamera().inMenu)

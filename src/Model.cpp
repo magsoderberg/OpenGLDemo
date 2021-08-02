@@ -112,7 +112,6 @@ void Model::UpdateShaderUniforms() {
 			shader.setInt("lights[" + std::to_string(i) + "].spotColored", 0);
 			shader.setFloat("lights[" + std::to_string(i) + "].outerCutoff", glm::cos(glm::radians(lights[i]->outerCutoff)));
 
-			std::cout << "set to spot " << std::endl;
 		}
 		else if (lights[i]->lightTypes[lights[i]->guiLightType] == "SpotColored") {
 
@@ -247,7 +246,6 @@ void Model::DeSerialize(json& j) {
 				}
 				if (el2.key() == "meshPath") {
 					meshPath = el2.value();
-					std::cout << "---MESHPATH " << el2.value() << std::endl;
 					UseMesh(meshPath.c_str());
 				}
 				if (el2.key() == "vshader") {

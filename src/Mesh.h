@@ -12,19 +12,13 @@
 #include <sstream>
 
 #include <nlohmann/json.hpp>
-
 using json = nlohmann::json;
 
-struct Vertex
-{
-	glm::vec3 Position;
-	glm::vec2 TexCoord;
-};
 
 class Mesh
 {
 	public:
-		Mesh();
+		Mesh() {};
 		Mesh(const char* meshPath);
 		void Init(const char* meshPath);
 		std::vector<float> vertices;
@@ -37,7 +31,6 @@ class Mesh
 		unsigned int VAO, VBO, EBO, texture;
 		const char* GetName() { return meshPath.c_str(); }
 		json Serialize();
-		//void DeSerialize(json& j);
 		const char* GetType();
 		std::string name;
 		std::string texturePath;
@@ -47,10 +40,6 @@ class Mesh
 		const aiMesh* mesh;
 		unsigned int numElements;
 		std::string meshPath;
-		
-		
-		
-
 };
 
 #endif

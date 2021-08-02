@@ -31,10 +31,13 @@ public:
 
 	inline Camera& GetCamera() { return camera; }
 
+	static void Quit();
+
 	float currentFrame;
 	float deltaTime;
 	float lastFrame;
-	bool showGUI = true;
+	bool showGUI = false;
+	bool showLights = false;
 	bool renderLights = true;
 
 private:
@@ -46,6 +49,8 @@ private:
 	static float const WINDOW_SIZE_Y;
 
 	static float const * WINDOW_SIZE;
+
+	static int quit;
 
 };
 

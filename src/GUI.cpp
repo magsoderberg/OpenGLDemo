@@ -24,6 +24,7 @@
 #include "allAnimations.h"
 #include "Mesh.h"
 #include "OpenFiles.h"
+#include "Application.h"
 
 
 int GUI::selected_model = -1;
@@ -169,6 +170,11 @@ void GUI::Menu(Camera& camera) {
 		{
 			allShaders::AddFragmentShader(makePathNameRelative(newShaderPath.c_str()));
 		}
+	}
+
+	ImGui::SameLine();
+	if (ImGui::Button("Quit")) {
+		Application::Quit();
 	}
 
 	ImGui::End();
