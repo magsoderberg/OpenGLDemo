@@ -7,7 +7,7 @@
 *	program as well as helper functions to communicate
 *	between shaders and CPU.
 *	
-*	Author: Magnus Söderberg
+*	Author: Magnus SÃ¶derberg //
 *
 ********************************************************/
 
